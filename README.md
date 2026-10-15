@@ -13,7 +13,7 @@ I built it as a small but complete backend project: authentication, data ownersh
 
 ## Live demo
 
-**[Open the interactive docs (Swagger UI)](https://YOUR-SERVICE.onrender.com/docs)**
+**[Open the interactive docs (Swagger UI)](https://job-tracker-api-exhf.onrender.com/docs)**
 
 > The demo runs on a free Render instance. It sleeps after 15 minutes without traffic, so the first request can take around a minute to wake it up. The filesystem is ephemeral, so users and applications are **reset** whenever the service restarts or sleeps. It is a demo, not a production deployment.
 

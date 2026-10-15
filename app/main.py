@@ -2,12 +2,13 @@ from fastapi import FastAPI
 
 from app import models  # noqa: F401  (registra las tablas en Base)
 from app.database import Base, engine
-from app.routers import auth
+from app.routers import auth, applications
 
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Job Tracker API")
 app.include_router(auth.router)
+app.include_router(applications.router)
 
 @app.get("/health")
 def health():
